@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { TypographyComponent } from './typography/typography.component';
+import { InstagramComponent } from './instagram/instagram.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TypographyComponent,
+    InstagramComponent
   ],
   imports: [
     BrowserModule
